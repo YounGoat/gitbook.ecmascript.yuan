@@ -1,4 +1,4 @@
-# Introduction
+# yuan, an easy way from anything else to ECMAScript
 
 Why YUAN ?
 
