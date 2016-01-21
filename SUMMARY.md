@@ -6,3 +6,4 @@
 * [Array](array.md)
 * [Object](object.md)
 * [Char](char.md)
+* [Promise](promise.md)
