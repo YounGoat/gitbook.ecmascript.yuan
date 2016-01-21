@@ -5,19 +5,19 @@
 	// ES6 required.
 
 	function _promise_http_get(url) {
-		var onsuccess, onerror;
+		var callbacks = {};
 
 		// Do something async.
 		http
 			.get(url, function(res) {
-				onsuccess(res);
+				callbacks.onsuccess(res);
 			})
 			.on('error', function(ex) {
-				onerror(ex);
+				callbacks.onerror(ex);
 			})
 			;
 
-		return yuan.promise(onsuccess, onerror);
+		return yuan.promise(callbacks);
 	};
 
 	var res = yield _promise_http_get(url);
