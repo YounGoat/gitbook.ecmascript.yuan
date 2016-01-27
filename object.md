@@ -55,7 +55,7 @@ In this section, we will find ways to peep into objects.
 
 *	equalAt
 
-	Compare two objects by key members
+	Compare two objects by key members.
 	```javascript
 	var foo = { name: "Jack", gender: "male" };
 	var bar = { name: "Jack", age: 22 };

@@ -51,11 +51,11 @@
 | %d            | 10.01         |      10 | integer
 | %+d           | 10.01         |     +10 | with +/- sign
 | %,d           | 10000         |  10,000 | with thousand signals
-| %4d           | 100           |    100_ | size fixed
+| %4d           | 100           |    _100 | size fixed
 | %06d          | 100           |  000100 | size fixed, with leading 0
-| %-4d          | 100           |    _100 | right aligned, size fixed
-| %-4d          | 10000         |    _1e4 | scientific notation (SN) when size exceeds
+| %-4d          | 100           |    100_ | right aligned, size fixed
+| %-4d          | 10000         |    1e4_ | scientific notation (SN) when size exceeds
 | %-2d          | 10000         |      __ | whitespaces when size exceeds (event in SN)
-| %+-2d         | 10000         |      _+ | only +/- sign when size exceeds (event in SN)
+| %+-2d         | 10000         |      +_ | only +/- sign when size exceeds (event in SN)
 
 ATTENTION: Here the underline sign _ represents <SPACE>.
