@@ -2,47 +2,47 @@
 
 ###	Simple placeholder
 ```javascript
-	// String
-	yuan.string.format("Hello %s! My name is %s.", "Jack", "Eric");
-	// OUTPUT:
-	// Hello Jack! My name is Eric.
+// String
+yuan.string.format("Hello %s! My name is %s.", "Jack", "Eric");
+// OUTPUT:
+// Hello Jack! My name is Eric.
 
-	// Number
-	yuan.string.format("Jack is %d years old.", 10);
-	```
+// Number
+yuan.string.format("Jack is %d years old.", 10);
+```
 
 ### Size-fixed placeholder
 ```javascript
-	yuan.string.format("Name: %10s", "Jack");
-	// OUTPUT:
-	// Name: ______Jack
+yuan.string.format("Name: %10s", "Jack");
+// OUTPUT:
+// Name: ______Jack
 
-	yuan.string.format("Name: %-10s", "Jack");
-	// OUTPUT:
-	// Name: Jack______
-	```
+yuan.string.format("Name: %-10s", "Jack");
+// OUTPUT:
+// Name: Jack______
+```
 
 ### Size-fixed placeholder, what happens when string size exceeds
 ```javascript
-	yuan.string.format("%3s", "abcdefg");
-	// OUTPUT:
-	// abc
+yuan.string.format("%3s", "abcdefg");
+// OUTPUT:
+// abc
 
-	yuan.string.format("%-3s", "abcdefg");
-	// OUTPUT:
-	// abc
-	```
+yuan.string.format("%-3s", "abcdefg");
+// OUTPUT:
+// abc
+```
 
 ### Size-fixed placeholder and cutter
 ```javascript
-	yuan.string.format("%7.3s", "abcdefg");
-	// OUTPUT:
-	// ____abc
+yuan.string.format("%7.3s", "abcdefg");
+// OUTPUT:
+// ____abc
 
-	yuan.string.format("%-7.3s", "abcdefg");
-	// OUTPUT:
-	// abc____
-	```
+yuan.string.format("%-7.3s", "abcdefg");
+// OUTPUT:
+// abc____
+```
 
 ###	Integer placeholder
 
