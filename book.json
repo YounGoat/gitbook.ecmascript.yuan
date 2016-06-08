@@ -1,0 +1,22 @@
+{
+	"title": "YUAN, A JS LIB",
+	"links": {
+		"about": false,
+		"issues": false,
+		"contribute": false,
+
+		"sharing": {
+			"all": false,
+			"facebook": false,
+			"twitter": false
+		},
+		"sidebar": {
+			"HOME": "http://youngoat.github.io/"
+		}
+	},
+	"version": "2.6.6",
+	"plugins": [
+		"toggle-chapters",
+		"hide-published-with",
+		"catalog"]
+}
